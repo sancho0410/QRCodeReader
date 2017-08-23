@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9c28b76b-7b43-44ac-83fd-2e191021df52}</ProjectGuid>
+    <ProjectGuid>{6ab7b6d7-da61-430f-83c8-b4868d11c6c5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\Profiles\gusanchez\Documents\UnityProject\QRCodeReader\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{d8f64676-1f63-4745-ba37-0dc84201baa7}</Project>
+      <Project>{307fea4d-22e5-4368-86ca-0a95eb007b81}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <Reference Include="UnityEngine">

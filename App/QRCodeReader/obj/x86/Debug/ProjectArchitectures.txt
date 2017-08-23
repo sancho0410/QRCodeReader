@@ -1,0 +1,4 @@
+D:\Profiles\gusanchez\Documents\UnityProject\QRCodeReader\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+D:\Profiles\gusanchez\Documents\UnityProject\QRCodeReader\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+D:\Profiles\gusanchez\Documents\UnityProject\QRCodeReader\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+D:\Profiles\gusanchez\Documents\UnityProject\QRCodeReader\App\QRCodeReader\QRCodeReader.csproj;x86

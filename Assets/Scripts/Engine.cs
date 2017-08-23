@@ -1,9 +1,10 @@
-﻿using System;
+﻿using HoloToolkit.Unity.InputModule;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Engine : MonoBehaviour {
+public class Engine : MonoBehaviour, IInputClickHandler {
 
     public Transform textMeshObject;
 
@@ -11,7 +12,7 @@ public class Engine : MonoBehaviour {
     private void Start()
     {
         this.textMesh = this.textMeshObject.GetComponent<TextMesh>();
-        this.OnReset();
+        this.OnReset();        
     }
     public void OnScan()
     {
@@ -41,4 +42,9 @@ public class Engine : MonoBehaviour {
     void Update () {
 		
 	}
+
+    public void OnInputClicked(InputClickedEventData eventData)
+    {
+        this.textMesh.text = "Event catché !";
+    }
 }
